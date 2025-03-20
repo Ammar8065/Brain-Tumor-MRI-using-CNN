@@ -22,8 +22,25 @@ Brain Tumor MRI Dataset/
       ├── Pituitary/
       ├── No Tumor/
 ```
+## 📂 Dataset & Preprocessing
 
-## Model Architecture
+Dataset: Brain MRI scans categorized into four tumor types.
+
+Preprocessing steps:
+
+Duplicate images removed for better dataset integrity.
+
+Image resizing and normalization.
+
+Data augmentation to improve generalization.
+
+Splitting into training, validation, and test sets.
+
+
+
+
+## 🔍 Model Architecture
+
 We utilized **EfficientNetB0** and **EfficientNetB1**, which are lightweight and high-performing convolutional neural networks (CNNs). The models were fine-tuned on the dataset to achieve high accuracy while maintaining efficiency.
 
 ## Training Process
@@ -32,7 +49,7 @@ We utilized **EfficientNetB0** and **EfficientNetB1**, which are lightweight and
 - The dataset was split into **training** and **validation** sets.
 - The models were trained using **TensorFlow and Keras**.
 
-## Performance
+## 📊 Performance & Evaluation
 ### EfficientNetB0
 #### Training & Validation Accuracy!
 ![EfficientNetB0 (Train   Val acc )](https://github.com/user-attachments/assets/9d78bb5a-8a8f-43b4-b82b-d181e81f6e14)
@@ -53,9 +70,9 @@ We utilized **EfficientNetB0** and **EfficientNetB1**, which are lightweight and
 #### Random Predictions
 ![Random Prediction on images (EfficientNetB1)](https://github.com/user-attachments/assets/f908a2e6-71c1-411e-9fa5-56b057a51d9e)
 
-## Results
+## 🚀 Results
 - **EfficientNetB0** achieved a validation accuracy of **~80%**.
-- **EfficientNetB1** performed better, reaching **~98% accuracy**.
+- **EfficientNetB1** performed significantly better, reaching **~98% accuracy**.
 - The confusion matrices show strong performance in identifying tumor types correctly.
 
 ## Requirements
