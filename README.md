@@ -64,10 +64,11 @@ We utilized **EfficientNetB0** and **EfficientNetB1**, which are lightweight and
 ### EfficientNetB1
 
 #### Training & Validation Accuracy
-![EfficientNetB1 Training & Validation Accuracy](./EfficientNetB1%20(Train%20%26%20Val%20acc.).png)
+(![EfficientNetB1 (Train   Val acc )](https://github.com/user-attachments/assets/b5d798dc-b21c-4b2d-ba31-daa474fdf673))
 
 #### Confusion Matrix
-![EfficientNetB1 Confusion Matrix](./EfficientNetB1%20Confusion%20Matrix.png)
+![EfficientNetB1 Confusion Matrix](https://github.com/user-attachments/assets/1a7dfb37-b77a-4595-8aaa-79fb94ee9ed4)
+
 
 #### Random Predictions
 ![Random Prediction on images (EfficientNetB1)](https://github.com/user-attachments/assets/f908a2e6-71c1-411e-9fa5-56b057a51d9e)
